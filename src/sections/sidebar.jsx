@@ -5,6 +5,7 @@ import { FaTwitter, FaTiktok, FaWhatsapp, FaLinkedin } from "react-icons/fa";
 const sections = [
   { id: "Home", label: "Home" },
   { id: "About", label: "About" },
+  { id: "Skills", label: "Skills" },
   { id: "Portfolio", label: "Portfolio" },
   { id: "Contact", label: "Contact" },
 ];
