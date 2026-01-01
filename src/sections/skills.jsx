@@ -34,11 +34,11 @@ export default function Skills() {
       : skills.filter((skill) => skill.category === activeFilter);
 
   return (
-    <section id="Skills" className="w-full bg-slate-200 py-14 px-4 sm:px-8">
+    <section id="Skills" className="w-full bg-slate-300 rounded-xl shadow-lg py-14 px-4 sm:px-8">
       <div className="max-w-7xl mx-auto">
 
         {/* Title */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 border-gray-400 border-2">
           <h1 className="text-3xl sm:text-4xl font-bold text-slate-900">
             Skills & Expertise
           </h1>
